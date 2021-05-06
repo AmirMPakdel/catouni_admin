@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+/* Mehdi Styles */
+@font-face {
+	font-family: Catouni;
+	src: url(./assets/font/Catouni-Regular.woff2) format("woff2"),
+		url(./assets/font/Catouni-Regular.ttf) format("truetype");
+}
+body {
+	font-family: Catouni;
+	margin: 0 100px 0 0;
+	padding: 0;
+	overflow-x: hidden;
+	direction: rtl;
+}
+.sectiontitle {
+	font-size: 24px;
+}
+.wrapper {
+	max-width: 900px;
+	margin: auto;
+}
+.inline {
+	display: inline;
+}
+.right {
+	text-align: right;
+}
+.left {
+	text-align: left;
+}
+.fright {
+	float: right;
+}
+.fleft {
+	float: left;
+}
+.block {
+	display: block;
+}
+.maincolor {
+	color: #d4af73 !important;
+}
+.primarycolor {
+	color: #9b9b9b;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #424241;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+	background: #a8a8a8;
+}

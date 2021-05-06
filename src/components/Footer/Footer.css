@@ -1,0 +1,30 @@
+.footer {
+	display: block;
+	background-color: black;
+	padding: 20px 0px 80px;
+}
+.footer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 20px 0px;
+	overflow: hidden;
+}
+.footer ul li {
+	float: right;
+}
+
+.footer ul li i {
+	color: white;
+	margin: 0;
+	padding: 2px 5px;
+}
+.white {
+	color: white;
+}
+.copyright {
+	color: #9b9b9b;
+	font-size: 14px;
+}
+.socialmedia i {
+	color: #d4af73 !important;
+}

@@ -1,0 +1,210 @@
+select {
+	font-family: "IranSans";
+	font-size: 16px;
+	text-align: right;
+	direction: rtl;
+	padding: 0px 10px;
+}
+
+.App {
+	text-align: center;
+	height: 100vh;
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 560px;
+	min-width: 980px;
+}
+
+.MainContainer {
+	height: 80vh;
+	width: 90vw;
+	min-height: 448px;
+	min-width: 882px;
+	margin-top: 5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5vh;
+	border-radius: 4px;
+}
+.web {
+	height: 100vh;
+	width: 100vw;
+	display: block;
+	position: absolute;
+	background-size: auto;
+}
+.Header {
+	align-self: flex-end;
+	height: 10vh;
+	width: 100vw;
+	min-height: 56px;
+	min-width: 980px;
+	border-style: solid;
+	border-width: 0px;
+	border-color: white;
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	height: 60px;
+	width: 60px;
+	margin-left: 20px;
+	margin-top: 15px;
+	margin-right: auto;
+}
+
+.logo_title {
+	font-size: 20px;
+	color: white;
+}
+
+.heder_title {
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+	font-family: "IranSans";
+	font-weight: 400;
+	opacity: 0.85;
+	margin-right: 50px;
+}
+
+.header_name {
+	font-size: 16px;
+	color: white;
+	cursor: default;
+	font-family: "IranSans";
+	font-weight: 300;
+	opacity: 0.85;
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+.profile_pic {
+	height: 46px;
+	width: 46px;
+	margin-bottom: 10px;
+	border-radius: 30px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+@font-face {
+	font-family: IranSans;
+	font-style: normal;
+	font-weight: 900;
+	src: url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/0cbe440.eot);
+	src: url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/0cbe440.eot#iefix)
+			format("embedded-opentype"),
+		url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/3d58553.woff2)
+			format("woff2"),
+		url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/6e6d05b.woff) format("woff"),
+		url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/879c6f0.ttf)
+			format("truetype");
+}
+
+@font-face {
+	font-family: IranSans;
+	font-style: normal;
+	font-weight: 700;
+	src: url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/cacb945.eot);
+	src: url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/cacb945.eot#iefix)
+			format("embedded-opentype"),
+		url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/924be0f.woff2)
+			format("woff2"),
+		url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/6ed6ddf.woff) format("woff"),
+		url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/cf91637.ttf)
+			format("truetype");
+}
+
+@font-face {
+	font-family: IranSans;
+	font-style: normal;
+	font-weight: 500;
+	src: url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/5a25001.eot);
+	src: url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/5a25001.eot#iefix)
+			format("embedded-opentype"),
+		url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/8451859.woff2)
+			format("woff2"),
+		url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/32cc237.woff) format("woff"),
+		url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/caa93b1.ttf)
+			format("truetype");
+}
+
+@font-face {
+	font-family: IranSans;
+	font-style: normal;
+	font-weight: 300;
+	src: url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/fe61680.eot);
+	src: url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/fe61680.eot#iefix)
+			format("embedded-opentype"),
+		url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/d11c490.woff2)
+			format("woff2"),
+		url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/74955f1.woff) format("woff"),
+		url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/1604933.ttf)
+			format("truetype");
+}
+
+@font-face {
+	font-family: IranSans;
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/07e13ce.eot);
+	src: url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/07e13ce.eot#iefix)
+			format("embedded-opentype"),
+		url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/38d4b5f.woff2)
+			format("woff2"),
+		url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/d4bb655.woff) format("woff"),
+		url(https://cdn.alibaba.ir/dist/92ac74c4/fonts/a5080d9.ttf)
+			format("truetype");
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1200px;
+	}
+}
+input[type="email"],
+input[type="password"],
+input[type="text"],
+textarea {
+	-webkit-appearance: none;
+}
+.btn {
+	border-radius: 5px;
+	transition: all 0.25s;
+}
+.btn:focus {
+	outline: 0;
+}
+.btn.btn-outline {
+	background-color: transparent;
+}
+.btn[disabled],
+.btn[disabled]:hover {
+	background-color: #aaa;
+	border-color: #aaa;
+}
+.btn-primary.btn-outline {
+	color: #4990e2;
+}
+.btn-primary.btn-outline:focus,
+.btn-primary.btn-outline:hover {
+	background-color: #4990e2;
+	color: #fff;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

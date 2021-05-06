@@ -1,0 +1,79 @@
+.gallerysection {
+	width: 100%;
+	text-align: right;
+	display: table;
+	background-color: black;
+	padding: 60px 0 2px;
+}
+.gallerysection h1 {
+	padding-bottom: 30px;
+	color: white;
+	margin-bottom: -10px;
+}
+.hr {
+	width: 200px;
+	margin: 0;
+	border: 1px solid #d4af73;
+}
+.gallery {
+	width: 100%;
+}
+.galleryimage {
+	width: calc(25% - 20px);
+	height: 220px;
+	float: right;
+	margin: 10px;
+	position: relative;
+}
+.galleryimage img {
+	border-radius: 3px;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.galleryimage:hover .imagetitle {
+	height: 210px;
+	opacity: 0.8;
+	padding-top: 10px;
+}
+.gallerywrapper {
+	display: block;
+	width: 800px;
+	margin: 50px auto;
+	display: table;
+}
+.imagetitle {
+	overflow: hidden;
+	height: 28px;
+	padding: 0 10px 0 0;
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	width: calc(100% - 10px);
+	background-color: #818181;
+	opacity: 0.6;
+	border-radius: 3px;
+	-webkit-transition: all 0.5s; /* Safari prior 6.1 */
+	transition: all 0.5s;
+	cursor: pointer;
+}
+.imagetitle h3 {
+	font-size: 12px;
+	margin: 0;
+}
+.imagetitle p {
+	font-size: 12px;
+	display: block;
+}
+.imagetitle a {
+	font-size: 12px;
+	display: block;
+	color: #d4af73;
+	display: inline-block;
+}
+.description {
+	overflow: hidden;
+	display: -webkit-box !important;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}

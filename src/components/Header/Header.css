@@ -1,0 +1,29 @@
+.header {
+	width: 100%;
+	text-align: right;
+	display: block;
+	background-color: black;
+	background-image: url("../../assets/images/rasht.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px 0 2px;
+}
+.header h1 {
+	color: white;
+	text-align: center;
+	margin: 300px 0 0;
+	font-size: 40px;
+	color: #3887be;
+	font-weight: bold;
+	background-color: rgba(0,0,0,0.6);
+	padding: 40px 30px;
+	border-radius: 20px;
+}
+.header p {
+	line-height: 2.2em;
+	font-size: 15px;
+	padding: 0 170px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.8);
+	margin-bottom: 300px;
+}

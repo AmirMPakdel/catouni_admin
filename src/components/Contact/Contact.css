@@ -1,0 +1,86 @@
+.contact {
+	width: 100%;
+	text-align: right;
+	display: block;
+	background-color: black;
+	padding: 60px 0 20px;
+}
+.contactlist {
+	margin: 0;
+	font-size: 13px;
+}
+.contact h1 {
+	padding-bottom: 30px;
+	color: white;
+	margin-bottom: -10px;
+}
+.contactdetail {
+	list-style-type: none;
+	font-size: 20px;
+	color: white;
+	margin: 30px 0 0 0;
+	padding: 0;
+}
+.contactdetail li a {
+	padding: 0 20px;
+	margin: 0 20px;
+}
+.hr {
+	width: 200px;
+	margin: 0;
+	border: 1px solid #d4af73;
+}
+.contactform {
+	width: 100%;
+	line-height: 3.3em;
+	padding-right: 7px;
+	padding-left: 7px;
+	font-family: Catouni;
+	color: #a1a1a1;
+	font-size: 13px;
+}
+.white {
+	color: white;
+}
+.formbox {
+	margin: 0 0 90px 0;
+}
+.formbox input {
+	margin-bottom: 13px;
+}
+.formbox button {
+	width: 170px;
+	padding: 3px;
+	background-color: Transparent;
+	border: 1px solid #d8d8d8;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	color: #d8d8d8;
+	font-family: Catouni;
+	cursor: pointer;
+	outline: none;
+	margin-top: 20px;
+}
+.formbox button:hover {
+	border: 1px solid #d4af73;
+	color: #d4af73;
+	transition: all 0.5s ease;
+}
+.send {
+	margin: 0 -8px 0 8px;
+}
+.Contactlisttext {
+	padding: 0 20px 0 0 !important;
+	margin: 0 !important;
+	color: #9b9b9b;
+}
+.callustext {
+	color: #9b9b9b;
+	font-size: 13px;
+}
+::-webkit-input-placeholder {
+	color: #a1a1a1;
+	font-family: Catouni;
+	font-size: 13px;
+}
